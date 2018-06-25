@@ -1,0 +1,196 @@
+body {
+  color:rgb(255,255,255);
+  background-color:rgb(0,0,0);
+}
+
+#hero {
+  width:100%;
+  height:100vh;
+  background-image:url("../../assets/img/exterior-mobile.jpg");
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+@media (min-width: 768px) {
+  #hero {
+    background-image:url("../../assets/img/exterior.jpg");
+  }
+}
+.navbar-light .navbar-brand {
+  background-image:url("../../assets/img/VW-logosvg.svg");
+  background-repeat:no-repeat;
+  width:100px;
+  height:100px;
+  background-position:center;
+  background-size:cover;
+}
+
+#navcol-1 {
+  font-size:18px;
+  font-family:Montserant, sans-serif;
+  font-weight:600;
+  text-transform:uppercase;
+  text-shadow:1px 1px 0 rgb(0, 0, 0);
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color:rgb(255, 255, 255);
+}
+
+#title {
+  font-family:'Montserrat Alternates', sans-serif;
+  font-size:26px;
+  text-shadow:1px 1px 0 #000;
+}
+
+#subtitle {
+  font-size:42px;
+  font-family:Aldrich, sans-serif;
+  text-shadow:1px 1px 0 #000;
+}
+
+.p-top {
+  font-size:20px;
+  font-family:Aldrich, sans-serif;
+  font-weight:bold;
+  margin-bottom:0px;
+}
+
+.p-bottom {
+  font-size:13px;
+  font-family:Aldrich, sans-serif;
+  font-weight:normal;
+  margin:0px;
+}
+
+.reserve-button {
+  background-color:rgba(0,98,204,0);
+  border:3px solid white;
+  border-radius:38px;
+}
+
+.table {
+  max-width: 900px;
+  position: relative;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#hero-bottom.container {
+  max-width:700px;
+  text-align:center;
+}
+
+#hero-bottom {
+  text-align:center;
+}
+
+.col.with-border {
+  border:1px solid rgba(255,255,255,0.45);
+  border-top:0;
+  border-bottom:0;
+}
+
+#video-and-stats {
+  text-align:center;
+  margin-top:25px;
+}
+
+#video-and-stats iframe {
+  width:90%;
+  height:400px;
+}
+
+@media (min-width: 900px) {
+  #video-and-stats iframe {
+    width:900px;
+    height:500px;
+  }
+}
+
+@media (min-width: 576px) {
+  #stats {
+    margin:0 auto;
+    width:600px;
+    margin-top:32px;
+    margin-bottom:250px;
+    font-size:15px;
+  }
+}
+
+#stats {
+  margin:0 auto;
+  width:90%;
+  margin-top:32px;
+  margin-bottom:150px;
+  font-size:15px;
+}
+
+#stats .table thead th {
+  text-align:left;
+  padding-left:0;
+  border-top:0;
+}
+
+#stats .cell-left {
+  text-align:left;
+  padding-left:0px;
+}
+
+#stats .cell-right {
+  text-align:right;
+  font-weight:bold;
+  padding-right:0px;
+}
+
+#areo {
+  width:100%;
+  height:100vh;
+  background-image:url("../../assets/img/exterior2.jpg");
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+#areo .container {
+  margin-top:450px;
+}
+
+@media (min-width: 768px) {
+  #interior {
+    width:100%;
+    height:100vh;
+  }
+}
+
+#interior {
+  width:100%;
+}
+
+
+#interior .figure {
+  max-width:90%;
+  max-height:100vh;
+}
+
+#interior .figure-caption {
+  color:rgb(252,254,255);
+  margin-top:15px;
+}
+
+#caption-title {
+  margin-right:20px;
+}
+
+.img-fluid {
+  width:100%;
+  height:100vh;
+}
+
+.extr{
+  position: relative;
+  top: 250px;
+  font-size: 1.5em
+}
