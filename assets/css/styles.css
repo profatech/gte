@@ -194,3 +194,19 @@ body {
   top: 250px;
   font-size: 1.5em
 }
+
+.footer{
+  text-align: center;
+  margin: 80px;
+  font-size: 22px;
+}
+
+@media (max-width:768px){
+  .footer{
+    text-align: center;
+    margin: 30px;
+    font-size: 18px;
+    position: relative;
+    top: 280px;
+  }
+}
